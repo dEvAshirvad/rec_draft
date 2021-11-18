@@ -1,0 +1,32 @@
+@use "../sass/abstracts/" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: $background;
+}
+
+span > img{
+    width: 60px;
+}
+
+.flexy {
+    display: flex;
+}
+
+nav > span {
+    align-items: center;
+    gap: 12px;
+}
+
+header {
+    padding: 1.875rem 8.125rem;
+}
