@@ -14,12 +14,34 @@ body {
     background-color: $background;
 }
 
-span > img{
-    width: 60px;
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.container {
+    max-width: 1180px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .flexy {
     display: flex;
+}
+
+header {
+    padding: 1.875rem 8.125rem;
+}
+
+span > img{
+    width: 60px;
+}
+
+span > h1 {
+    font-size: 2.25rem;
 }
 
 nav > span {
@@ -27,6 +49,20 @@ nav > span {
     gap: 12px;
 }
 
-header {
-    padding: 1.875rem 8.125rem;
+form {
+    width: fit-content;
+}
+
+.formSection {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.inputs {
+    gap: 3.75rem;
+}
+
+.datas {
+    display: flex;
+    flex-direction: column;
 }
