@@ -22,6 +22,13 @@ h2 {
     font-size: 3rem;
 }
 
+input {
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1.5rem;
+}
+
 .container {
     max-width: 1180px;
     width: 80%;
@@ -33,7 +40,7 @@ h2 {
 }
 
 header {
-    padding: 1.875rem 8.125rem;
+    padding: 1.875rem 0;
 }
 
 span > img{
@@ -51,6 +58,11 @@ nav > span {
 
 form {
     width: fit-content;
+    margin: 0 auto;
+}
+
+.formFields {
+    margin-top: 3.125rem;
 }
 
 .formSection {
@@ -58,11 +70,59 @@ form {
     margin: 0 auto;
 }
 
+.qualifications {
+    margin-top: 3.75rem;
+}
+
 .inputs {
+    margin-top: 2.5rem;
     gap: 3.75rem;
 }
 
 .datas {
     display: flex;
     flex-direction: column;
+    gap: 3.125rem;
 }
+
+.spl {
+    margin-top: 3.125rem;
+    width: 100%;
+}
+
+.submitt {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 1rem;
+    margin-top: 3.75rem;
+}
+
+.submitt > input {
+    padding: 0.3rem 3rem;
+    border: 2px solid black;
+}
+
+footer {
+    margin-top: 6.25rem;
+}
+
+.upperFooter {
+    justify-content: space-between;
+}
+
+.ContactUs {
+    width: fit-content;
+}
+
+.icons {
+    margin-top: 1.875rem;
+    justify-content: space-between;
+}
+
+.Contacts > p{
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-align: right;
+}
+
