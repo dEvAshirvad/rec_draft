@@ -27,6 +27,11 @@ input {
     border: none;
     border-bottom: 2px solid black;
     font-size: 1.5rem;
+    padding: 0.2rem 0;
+}
+
+input:focus {
+    outline: none;
 }
 
 .container {
@@ -120,9 +125,19 @@ footer {
     justify-content: space-between;
 }
 
+.icons > img {
+    width: 40px;
+}
+.Contacts {
+    text-align: right;
+}
 .Contacts > p{
     font-size: 1.875rem;
     font-weight: 400;
-    text-align: right;
+}
+
+.lowerFooter {
+    margin-top: calc(80rem/16);
+    justify-content: space-between;
 }
 
